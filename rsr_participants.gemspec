@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/rsr_participants.rb",
+    "rsr_participants.gemspec",
     "test/helper.rb",
     "test/test_rsr_participants.rb"
   ]
