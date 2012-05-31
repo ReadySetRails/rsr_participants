@@ -1,7 +1,7 @@
 require 'helper'
 
 class TestRsrParticipants < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
+  should "include Renee in the list of authors" do
+    assert(RsrParticipants.authors_for_print.include?('Renee'), "The printed authors did not include Renee")
   end
 end
